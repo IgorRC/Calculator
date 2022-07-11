@@ -16,7 +16,7 @@ botonesNumeros.forEach((numero) => {
 
 botonesOperaciones.forEach((simbolo) => {
   simbolo.addEventListener("click", () => {
-    
+
   });
 });
 
