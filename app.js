@@ -17,4 +17,7 @@ botonesOperaciones.forEach(operation => {
   });
 })
 
-
+function limpiarPantalla() {
+  pantalla.innerHTML = "";
+  disply = "";
+}
