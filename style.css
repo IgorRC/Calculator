@@ -117,3 +117,18 @@ div.equal:hover {
 div.equal:active {
   font-weight: bold;
 }
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  font-size: .6em;
+}
+.footer a{
+  font-weight: 500;
+  text-decoration: none;
+  color: #f00;
+}

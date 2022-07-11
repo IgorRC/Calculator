@@ -1,13 +1,12 @@
 const botonesNumeros = document.querySelectorAll('.num');
 const botonesOperaciones = document.querySelectorAll('.operation');
 let pantalla = document.getElementById("input");
-let disply = "";
+let display = "";
 
 botonesNumeros.forEach(numero => {
   numero.addEventListener('click', () => {
-    console.log(numero.innerHTML);  
-    disply += numero.innerHTML;
-    pantalla.innerHTML = `${disply}`;  
+    display += numero.innerHTML;
+    pantalla.innerHTML = `${display}`;  
   });
 })
 
@@ -19,5 +18,5 @@ botonesOperaciones.forEach(operation => {
 
 function limpiarPantalla() {
   pantalla.innerHTML = "";
-  disply = "";
+  display = "";
 }
