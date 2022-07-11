@@ -18,7 +18,7 @@ body {
 
 .input {
   border: 1px solid #ddd;
-  border-radius: 1px;
+  border-radius: 14px;
   height: 60px;
   padding-right: 15px;
   padding-top: 10px;
@@ -35,28 +35,23 @@ body {
   box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
 }
 
-.buttons {
-}
-
-.operators {
-}
-
 .operators div {
   display: inline-block;
   border: 1px solid #bbb;
-  border-radius: 1px;
+  border-radius: 14px;
   width: 80px;
   text-align: center;
   padding: 10px;
   margin: 20px 4px 10px 0;
   cursor: pointer;
   background-color: #ddd;
-  transition: border-color 0.2s ease-in-out, background-color 0.2s,
-    box-shadow 0.2s;
+  transition: border-color 0.2s ease-in-out, 
+              background-color 0.2s,
+              box-shadow 0.2s;
 }
 
 .operators div:hover {
-  background-color: #ddd;
+  background-color: #ccc;
   -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
   border-color: #aaa;
@@ -73,15 +68,16 @@ body {
 .numbers div {
   display: inline-block;
   border: 1px solid #ddd;
-  border-radius: 1px;
+  border-radius: 14px;
   width: 80px;
   text-align: center;
   padding: 10px;
   margin: 10px 4px 10px 0;
   cursor: pointer;
   background-color: #f9f9f9;
-  transition: border-color 0.2s ease-in-out, background-color 0.2s,
-    box-shadow 0.2s;
+  transition: border-color 0.2s ease-in-out, 
+              background-color 0.2s,
+              box-shadow 0.2s;
 }
 
 .numbers div:hover {
@@ -98,7 +94,7 @@ body {
 div.equal {
   display: inline-block;
   border: 1px solid #3079ed;
-  border-radius: 1px;
+  border-radius: 14px;
   width: 17%;
   text-align: center;
   padding: 127px 10px;
