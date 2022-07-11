@@ -3,7 +3,6 @@ const botonesOperaciones = document.querySelectorAll('.operation');
 let pantalla = document.getElementById("input");
 let disply = "";
 
-
 botonesNumeros.forEach(numero => {
   numero.addEventListener('click', () => {
     console.log(numero.innerHTML);  
@@ -12,10 +11,10 @@ botonesNumeros.forEach(numero => {
   });
 })
 
-
-
 botonesOperaciones.forEach(operation => {
   operation.addEventListener('click', () => {
       
   });
 })
+
+
