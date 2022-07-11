@@ -1,21 +1,31 @@
-const botonesNumeros = document.querySelectorAll('.num');
-const botonesOperaciones = document.querySelectorAll('.operation');
+const botonesNumeros = document.querySelectorAll(".num");
+const botonesOperaciones = document.querySelectorAll(".operation");
 let pantalla = document.getElementById("input");
-let disply = "";
+let equal = document.getElementById("equal");
 
-botonesNumeros.forEach(numero => {
-  numero.addEventListener('click', () => {
-    console.log(numero.innerHTML);  
-    disply += numero.innerHTML;
-    pantalla.innerHTML = `${disply}`;  
-  });
-})
+//variables para las operaciones
+let anterior = "", actual = "";
+let muestra = "";
+let op;
 
-botonesOperaciones.forEach(operation => {
-  operation.addEventListener('click', () => {
-      
+botonesNumeros.forEach((numero) => {
+  numero.addEventListener("click", () => {
+
   });
-})
+});
+
+botonesOperaciones.forEach((simbolo) => {
+  simbolo.addEventListener("click", () => {
+    
+  });
+});
+
+// equal.forEach(() => {
+//   numero.addEventListener("click", () => {
+//     console.log(equal.innerHTML);
+//   });
+// });
+
 
 function limpiarPantalla() {
   pantalla.innerHTML = "";
